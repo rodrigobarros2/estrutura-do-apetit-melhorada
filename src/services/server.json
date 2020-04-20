@@ -1,0 +1,71 @@
+{
+	"customers": [
+		{
+			"id": 1,
+			"name": "Marcel Batista",
+			"products": ["Cuscuz com calabresa", "Suco de laranja"],
+			"price": 3.5,
+			"img": "https://i.imgur.com/N2S8rAR.jpg"
+		},
+		{
+			"id": 2,
+			"name": "Fernanda Siqueira",
+			"products": ["Iogurte desnatado com maça"],
+			"price": 7.9,
+			"img": "https://i.imgur.com/N2S8rAR.jpg"
+		},
+		{
+			"id": 3,
+			"name": "Luiz Oliveira",
+			"products": ["2x bolo frito,café c/leite"],
+			"price": 3.5,
+			"img": "https://i.imgur.com/N2S8rAR.jpg"
+		},
+		{
+			"id": 4,
+			"name": "Ana Virlania",
+			"products": ["2x sanduiche, vitamina de goiaba"],
+			"price": 3.5,
+			"img": "https://i.imgur.com/N2S8rAR.jpg"
+		},
+		{
+			"id": 5,
+			"name": "Ana Virlania",
+			"products": ["2x sanduiche, vitamina de goiaba"],
+			"price": 3.5,
+			"img": "https://i.imgur.com/N2S8rAR.jpg"
+		}
+	],
+	"products": [
+		{
+			"id": 1,
+			"category": "Cuscuz",
+			"name": "Cuscuz simples",
+			"img": "https://i.imgur.com/fqUWoIM.jpg",
+			"options": [
+				{
+					"option": "Milho"
+				},
+				{
+					"option": "Arroz"
+				}
+			]
+		},
+		{
+			"id": "2",
+			"category": "Pães",
+			"name": "Pão caseiro",
+			"img": "https://i.imgur.com/T4nLoHP.jpg",
+			"value": 2.25,
+			"options": [
+				{
+					"option": "Massa fina"
+				},
+				{
+					"option": "Massa grossa"
+				}
+			]
+		}
+	],
+	"orders": []
+}
