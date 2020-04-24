@@ -34,11 +34,13 @@ export const FindOrder = styled.input`
 export const ClientIMG = styled.img`
 	width: 40px;
 	height: 40px;
+	border-radius: 50%;
 `;
 
 export const ClientName = styled.p`
 	font-weight: 600;
 	font-size: 16px;
+	display: inline-block;
 	color: rgba(0, 0, 0, 0.87);
 `;
 
@@ -46,12 +48,28 @@ export const ClientProducts = styled.p`
 	font-size: 12px;
 	line-height: 18px;
 	color: rgba(0, 0, 0, 0.54);
+	display: inline-block;
 `;
 
 export const ClientPrice = styled.h6`
 	height: 24px;
 	font-weight: 600;
 	font-size: 16px;
-	text-align: right;
+	margin-left: auto;
 	color: rgba(0, 0, 0, 0.87);
+`;
+
+export const SaleInformation = styled.h6`
+	width: 259px;
+	height: 24px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+	padding:0 0 40px 0;
+`;
+
+export const ClientDetails = styled.div`
+	display: flex;
+	flex-direction: column;
 `;

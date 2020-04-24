@@ -24,13 +24,12 @@ export const Grid2 = styled.div`
 `;
 
 export const ContainerFlex = styled.div`
-	display: flex;
-	flex-direction: column;
 `;
 
 export const ContainerClient = styled.ul`
-
+	display:grid;
+	gap:22px;
 `;
 export const ClientList = styled.li`
-	list-style: none;
+	display: flex;
 `;
